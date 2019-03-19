@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import 'grid';
+
+.pageContainer{
+	width: 100%;
+}
+.header{
+	padding: 20px;
+	text-align: center;
+	background: black;
+	color: white;
+	font-family: helvetica;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.black{
+    background-color: #2d3436;
+}
+
+.white{
+    background-color: #ecf0f1;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	text-align: center;
+	    &::after{
+        clear: both;
+        display: block;
+        content: '';
+    }
+}
+
+li{
+	float: left;
+	width: 16.6666666667%;
+}
+
+li a{
+	display: block;
+	color: gray;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+  color: white;
+}
+
+.fullScreenImage{
+	.col{
+		padding-right: 0;
+		padding-left: 0;
+		img{
+			width: 100%;
+		}
+	}
+}
+
+.fullScreenBackImage{
+	width: 100%;
+	height: 300px;
+	background-image: url("https://loremflickr.com/1200/400");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+

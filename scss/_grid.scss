@@ -1,0 +1,66 @@
+$columns: 12;
+$columnWidth: 100% / $columns;
+
+$medWidth: 768px;
+$smlWidth: 412px;
+
+.row{
+    // margin-bottom: 15px;
+    &::after{
+        clear: both;
+        display: block;
+        content: '';
+    }
+}
+
+// .row::after{
+//     clear: both;
+//     display: block;
+//     content: '';
+// }
+
+.col{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@for $i from 1 through $columns{
+    .col#{$i}{
+        width:$columnWidth * $i;
+    }
+
+    .offset#{$i}{
+        margin-left:$columnWidth * $i;
+    }
+}
+
+
+
+
+@media (max-width: $medWidth) {
+    @for $i from 1 through $columns{
+        .colM#{$i}{
+            width:$columnWidth * $i;
+        }
+
+        .offsetM#{$i}{
+            margin-left:$columnWidth * $i;
+        }
+    }
+}
+
+
+
+@media (max-width: $smlWidth) {
+    @for $i from 1 through $columns{
+        .colS#{$i}{
+            width:$columnWidth * $i;
+        }
+
+        .offsetS#{$i}{
+            margin-left:$columnWidth * $i;
+        }
+    }
+}
+
