@@ -15,23 +15,41 @@
 	background: black;
 	color: white;
 	font-family: helvetica;
+	font-weight: bold;
 	text-transform: uppercase;
+	font-size: 80px;
+}
+
+h2{
+	text-align: left;
+	font-family: helvetica;
 	font-size: 50px;
 }
 
 .black{
-    background-color: #2d3436;
+    background-color: black;
 }
 
 .white{
     background-color: #ecf0f1;
+
+}
+
+#img__gallery{
+	padding: 8px;
+	float: right;
+
+}
+
+#img__ourRooms{
+
 }
 
 ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: #333;
+	background-color: black;
 	text-align: center;
 	    &::after{
         clear: both;
@@ -43,6 +61,9 @@ ul{
 li{
 	float: left;
 	width: 16.6666666667%;
+	font-family: helvetica;
+	font-size: 25px;
+	text-transform: uppercase;
 }
 
 li a{
@@ -54,7 +75,7 @@ li a{
 }
 
 li a:hover {
-	background-color: #111;
+	color: white;
 }
 
 .active {
@@ -65,18 +86,29 @@ li a:hover {
 	.col{
 		padding-right: 0;
 		padding-left: 0;
+		padding-bottom: 0;
 		img{
 			width: 100%;
 		}
 	}
 }
 
-.fullScreenBackImage{
-	width: 100%;
-	height: 300px;
-	background-image: url("https://loremflickr.com/1200/400");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+// .fullScreenBackImage{
+// 	width: 100%;
+// 	height: 600px;
+// 	background-image: url("../images/HarbMainPic.jpg");
+// 	background-position: center;
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// }
 
+hr { 
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}

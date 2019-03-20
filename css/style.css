@@ -1,470 +1,308 @@
-/* line 1, ../scss/style.scss */
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 9, ../scss/_grid.scss */
 .row::after {
   clear: both;
   display: block;
-  content: '';
-}
+  content: ''; }
 
-/* line 22, ../scss/_grid.scss */
 .col {
   float: left;
   padding-right: 15px;
-  padding-left: 15px;
-}
+  padding-left: 15px; }
 
-/* line 29, ../scss/_grid.scss */
 .col1 {
-  width: 8.3333333333%;
-}
+  width: 8.3333333333%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset1 {
-  margin-left: 8.3333333333%;
-}
+  margin-left: 8.3333333333%; }
 
-/* line 29, ../scss/_grid.scss */
 .col2 {
-  width: 16.6666666667%;
-}
+  width: 16.6666666667%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset2 {
-  margin-left: 16.6666666667%;
-}
+  margin-left: 16.6666666667%; }
 
-/* line 29, ../scss/_grid.scss */
 .col3 {
-  width: 25%;
-}
+  width: 25%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset3 {
-  margin-left: 25%;
-}
+  margin-left: 25%; }
 
-/* line 29, ../scss/_grid.scss */
 .col4 {
-  width: 33.3333333333%;
-}
+  width: 33.3333333333%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset4 {
-  margin-left: 33.3333333333%;
-}
+  margin-left: 33.3333333333%; }
 
-/* line 29, ../scss/_grid.scss */
 .col5 {
-  width: 41.6666666667%;
-}
+  width: 41.6666666667%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset5 {
-  margin-left: 41.6666666667%;
-}
+  margin-left: 41.6666666667%; }
 
-/* line 29, ../scss/_grid.scss */
 .col6 {
-  width: 50%;
-}
+  width: 50%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset6 {
-  margin-left: 50%;
-}
+  margin-left: 50%; }
 
-/* line 29, ../scss/_grid.scss */
 .col7 {
-  width: 58.3333333333%;
-}
+  width: 58.3333333333%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset7 {
-  margin-left: 58.3333333333%;
-}
+  margin-left: 58.3333333333%; }
 
-/* line 29, ../scss/_grid.scss */
 .col8 {
-  width: 66.6666666667%;
-}
+  width: 66.6666666667%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset8 {
-  margin-left: 66.6666666667%;
-}
+  margin-left: 66.6666666667%; }
 
-/* line 29, ../scss/_grid.scss */
 .col9 {
-  width: 75%;
-}
+  width: 75%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset9 {
-  margin-left: 75%;
-}
+  margin-left: 75%; }
 
-/* line 29, ../scss/_grid.scss */
 .col10 {
-  width: 83.3333333333%;
-}
+  width: 83.3333333333%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset10 {
-  margin-left: 83.3333333333%;
-}
+  margin-left: 83.3333333333%; }
 
-/* line 29, ../scss/_grid.scss */
 .col11 {
-  width: 91.6666666667%;
-}
+  width: 91.6666666667%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset11 {
-  margin-left: 91.6666666667%;
-}
+  margin-left: 91.6666666667%; }
 
-/* line 29, ../scss/_grid.scss */
 .col12 {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 33, ../scss/_grid.scss */
 .offset12 {
-  margin-left: 100%;
-}
+  margin-left: 100%; }
 
 @media (max-width: 768px) {
-  /* line 43, ../scss/_grid.scss */
   .colM1 {
-    width: 8.3333333333%;
-  }
+    width: 8.3333333333%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM1 {
-    margin-left: 8.3333333333%;
-  }
+    margin-left: 8.3333333333%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM2 {
-    width: 16.6666666667%;
-  }
+    width: 16.6666666667%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM2 {
-    margin-left: 16.6666666667%;
-  }
+    margin-left: 16.6666666667%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM3 {
-    width: 25%;
-  }
+    width: 25%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM3 {
-    margin-left: 25%;
-  }
+    margin-left: 25%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM4 {
-    width: 33.3333333333%;
-  }
+    width: 33.3333333333%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM4 {
-    margin-left: 33.3333333333%;
-  }
+    margin-left: 33.3333333333%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM5 {
-    width: 41.6666666667%;
-  }
+    width: 41.6666666667%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM5 {
-    margin-left: 41.6666666667%;
-  }
+    margin-left: 41.6666666667%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM6 {
-    width: 50%;
-  }
+    width: 50%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM6 {
-    margin-left: 50%;
-  }
+    margin-left: 50%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM7 {
-    width: 58.3333333333%;
-  }
+    width: 58.3333333333%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM7 {
-    margin-left: 58.3333333333%;
-  }
+    margin-left: 58.3333333333%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM8 {
-    width: 66.6666666667%;
-  }
+    width: 66.6666666667%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM8 {
-    margin-left: 66.6666666667%;
-  }
+    margin-left: 66.6666666667%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM9 {
-    width: 75%;
-  }
+    width: 75%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM9 {
-    margin-left: 75%;
-  }
+    margin-left: 75%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM10 {
-    width: 83.3333333333%;
-  }
+    width: 83.3333333333%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM10 {
-    margin-left: 83.3333333333%;
-  }
+    margin-left: 83.3333333333%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM11 {
-    width: 91.6666666667%;
-  }
+    width: 91.6666666667%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM11 {
-    margin-left: 91.6666666667%;
-  }
+    margin-left: 91.6666666667%; }
 
-  /* line 43, ../scss/_grid.scss */
   .colM12 {
-    width: 100%;
-  }
+    width: 100%; }
 
-  /* line 47, ../scss/_grid.scss */
   .offsetM12 {
-    margin-left: 100%;
-  }
-}
+    margin-left: 100%; } }
 @media (max-width: 412px) {
-  /* line 57, ../scss/_grid.scss */
   .colS1 {
-    width: 8.3333333333%;
-  }
+    width: 8.3333333333%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS1 {
-    margin-left: 8.3333333333%;
-  }
+    margin-left: 8.3333333333%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS2 {
-    width: 16.6666666667%;
-  }
+    width: 16.6666666667%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS2 {
-    margin-left: 16.6666666667%;
-  }
+    margin-left: 16.6666666667%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS3 {
-    width: 25%;
-  }
+    width: 25%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS3 {
-    margin-left: 25%;
-  }
+    margin-left: 25%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS4 {
-    width: 33.3333333333%;
-  }
+    width: 33.3333333333%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS4 {
-    margin-left: 33.3333333333%;
-  }
+    margin-left: 33.3333333333%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS5 {
-    width: 41.6666666667%;
-  }
+    width: 41.6666666667%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS5 {
-    margin-left: 41.6666666667%;
-  }
+    margin-left: 41.6666666667%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS6 {
-    width: 50%;
-  }
+    width: 50%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS6 {
-    margin-left: 50%;
-  }
+    margin-left: 50%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS7 {
-    width: 58.3333333333%;
-  }
+    width: 58.3333333333%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS7 {
-    margin-left: 58.3333333333%;
-  }
+    margin-left: 58.3333333333%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS8 {
-    width: 66.6666666667%;
-  }
+    width: 66.6666666667%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS8 {
-    margin-left: 66.6666666667%;
-  }
+    margin-left: 66.6666666667%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS9 {
-    width: 75%;
-  }
+    width: 75%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS9 {
-    margin-left: 75%;
-  }
+    margin-left: 75%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS10 {
-    width: 83.3333333333%;
-  }
+    width: 83.3333333333%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS10 {
-    margin-left: 83.3333333333%;
-  }
+    margin-left: 83.3333333333%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS11 {
-    width: 91.6666666667%;
-  }
+    width: 91.6666666667%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS11 {
-    margin-left: 91.6666666667%;
-  }
+    margin-left: 91.6666666667%; }
 
-  /* line 57, ../scss/_grid.scss */
   .colS12 {
-    width: 100%;
-  }
+    width: 100%; }
 
-  /* line 61, ../scss/_grid.scss */
   .offsetS12 {
-    margin-left: 100%;
-  }
-}
-/* line 9, ../scss/style.scss */
+    margin-left: 100%; } }
 .pageContainer {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 12, ../scss/style.scss */
 .header {
   padding: 20px;
   text-align: center;
   background: black;
   color: white;
   font-family: helvetica;
+  font-weight: bold;
   text-transform: uppercase;
-  font-size: 50px;
-}
+  font-size: 80px; }
 
-/* line 22, ../scss/style.scss */
+h2 {
+  text-align: left;
+  font-family: helvetica;
+  font-size: 50px; }
+
 .black {
-  background-color: #2d3436;
-}
+  background-color: black; }
 
-/* line 26, ../scss/style.scss */
 .white {
-  background-color: #ecf0f1;
-}
+  background-color: #ecf0f1; }
 
-/* line 30, ../scss/style.scss */
+#img__gallery {
+  padding: 8px;
+  float: right; }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333;
-  text-align: center;
-}
-/* line 36, ../scss/style.scss */
-ul::after {
-  clear: both;
-  display: block;
-  content: '';
-}
+  background-color: black;
+  text-align: center; }
+  ul::after {
+    clear: both;
+    display: block;
+    content: ''; }
 
-/* line 43, ../scss/style.scss */
 li {
   float: left;
   width: 16.6666666667%;
-}
+  font-family: helvetica;
+  font-size: 25px;
+  text-transform: uppercase; }
 
-/* line 48, ../scss/style.scss */
 li a {
   display: block;
   color: gray;
   text-align: center;
   padding: 25px;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-/* line 56, ../scss/style.scss */
 li a:hover {
-  background-color: #111;
-}
+  color: white; }
 
-/* line 60, ../scss/style.scss */
 .active {
-  color: white;
-}
+  color: white; }
 
-/* line 65, ../scss/style.scss */
 .fullScreenImage .col {
   padding-right: 0;
   padding-left: 0;
-}
-/* line 68, ../scss/style.scss */
-.fullScreenImage .col img {
-  width: 100%;
-}
+  padding-bottom: 0; }
+  .fullScreenImage .col img {
+    width: 100%; }
 
-/* line 74, ../scss/style.scss */
-.fullScreenBackImage {
-  width: 100%;
-  height: 300px;
-  background-image: url("https://loremflickr.com/1200/400");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+hr {
+  display: block;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto;
+  margin-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px; }
 
 /*# sourceMappingURL=style.css.map */
