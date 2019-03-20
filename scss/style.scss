@@ -9,22 +9,42 @@
 .pageContainer{
 	width: 100%;
 }
+
 .header{
 	padding: 20px;
 	text-align: center;
 	background: black;
-	color: white;
-	font-family: helvetica;
+	float: left;
+}
+
+.style1{
+	height: 70px;
+	width: 25%;
+	padding-top: 40px;
+	float: left;
+}
+
+.line_decoration{
+	width: 100%;
+	border: 2px solid gray;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 80px;
+	letter-spacing: 2px;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 80px;
+	color: white;
+	width: 40%;
+	height: 70px;
 }
 
 h2{
-	text-align: left;
-	font-family: helvetica;
-	font-size: 50px;
-	background-color: yellow;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	color: white;
 }
 
 .black{
@@ -39,6 +59,8 @@ h2{
 #img__gallery{
 	padding: 8px;
 	float: right;
+	max-width: 250px;
+	max-height: 160px;
 
 }
 
@@ -103,13 +125,30 @@ li a:hover {
 // 	background-size: cover;
 // }
 
-hr { 
-    display: block;
-    margin-before: 0.5em;
-    margin-after: 0.5em;
-    margin-start: auto;
-    margin-end: auto;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
+ .galleryArrows{
+ 	color: white;
+ 	text-align: right;
+ 	font-size: 25px;
+ 	font-weight: bold;
+ 	margin-top: 70px;
+ 	letter-spacing: 15px; 
+ }
+
+.welcomeRow{
+	height: 80px;
 }
+
+.welcomeHeading{
+	text-align: right;
+	padding-right: 40px;
+}
+
+.welcomeText{
+	color: white;
+	font-family: Roboto, sans-serif;
+	font-weight: none;
+	font-size: 15px;
+	margin:20 10 10 0;
+	width: 90%;
+}
+
