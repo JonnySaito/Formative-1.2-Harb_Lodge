@@ -30,8 +30,8 @@
 }
 
 .line_decoration{
-	width: 100%;
-	border: 2px solid gray;
+	width: 80%;
+	border: 1px solid gray;
 }
 
 body {
@@ -44,12 +44,12 @@ p {
 
 h1{
 	font-family: 'Roboto', sans-serif;
-	font-size: 3.5em;
+	font-size: 4em;
 	letter-spacing: 2px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: white;
-	width: 40%;
+	width: 60%;
 	height: 70px;
 }
 
@@ -57,6 +57,14 @@ h2{
 	font-family: 'Roboto', sans-serif;
 	font-size: 2.5em;
 	font-weight: bold;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:visited {
+  color: #3eafe0;
 }
 
 
@@ -69,6 +77,10 @@ h2{
 
 }
 
+.bold{
+	font-weight: bold;
+}
+
 #img__gallery{
 	padding-left: 8px;
 	padding-bottom: 30px;
@@ -77,7 +89,11 @@ h2{
 }
 
 #img__ourRooms{
-	padding-left: 50px; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: auto; 
 }
 
 ul{
@@ -152,7 +168,6 @@ li a:hover {
 	.welcomeHeading{
 		text-align: right;
 		color: white;
-		padding-right: 40px;
 		letter-spacing: 3px; 
 	}
 
@@ -166,18 +181,21 @@ li a:hover {
 }
 
 .welcomeLine{
-	width: 500px;
+	width: 200px;
 	float: right;
 	color: white;
 }
-
-
 
 .boldLearnMore{
 	font-family: Poppins, sans-serif;
 	font-weight: bold;
 	font-style: italic;
 	color: white;
+}
+
+.rightArrow{
+	color: gray;
+	font-size: 20px;
 }
 
 .ourRoomsHeading{
@@ -188,12 +206,19 @@ li a:hover {
 	padding-top: 30px;
 }
 
-.ourRoomsText{
+.ourRoomsLine{
+	width: 200px;
+	float: left;
 	color: black;
+}
+
+
+.ourRoomsText{
 	font-family: Poppins, sans-serif;
 	font-weight: none;
 	margin:20 10 10 0;
 	width: 90%;
+	color: black;
 }
 
 .ourRoomsMore{
@@ -203,13 +228,32 @@ li a:hover {
 	color: black;
 }
 
+.bottomRow{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	.guestHeading{
+		color: white;
+		letter-spacing: 3px;
+		font-style: italic;
+		text-align: right;
+		letter-spacing: 5px; 
+		padding: 10% 0; 
+	}
+}
+
 .guestHeading{
 	color: white;
 	font-style: italic;
 	text-align: right;
-	padding-right: 40px;
 	letter-spacing: 5px; 
-	padding-top: 30px;
+	padding: 10% 0;
+}
+
+.guestLine{
+	width:200px;
+	float: right;
+	color: white;
 }
 
 .guestBox{
@@ -217,4 +261,18 @@ li a:hover {
 	padding: 25px;
 	margin: 25px;
 	background-color: white; 
+}
+
+.guestBoxHead{
+	color: black;
+	font-family: Poppins, sans-serif;
+}
+
+.guestComment{
+	color: black;
+	font-family: Poppins, sans-serif;
+	font-size: 12px;
+	font-weight: none;
+	margin:20 10 10 0;
+	width: 90%;
 }
