@@ -15,7 +15,6 @@
 	padding: 20px;
 	text-align: center;
 	background: black;
-	float: left;
 }
 
 .block{
@@ -23,15 +22,16 @@
 }
 
 .style1{
+	display: inline-block;
 	height: 70px;
-	width: 25%;
 	padding-top: 40px;
-	float: left;
+
 }
 
 .line_decoration{
-	width: 80%;
+	width: 100%;
 	border: 1px solid gray;
+
 }
 
 body {
@@ -40,6 +40,7 @@ body {
 
 p {
   font-size: 1em;
+  font-family: Poppins, sans-serif;
 }
 
 h1{
@@ -59,14 +60,9 @@ h2{
 	font-weight: bold;
 }
 
-a:hover {
-  color: gray;
+#navTitleLink a:hover {
+  color: white;
 }
-
-a:visited {
-  color: #3eafe0;
-}
-
 
 .black{
     background-color: black;
@@ -111,6 +107,7 @@ ul{
 
 li{
 	float: left;
+	color: gray;
 	width: 16.6666666667%;
 	font-family: helvetica;
 	font-size: 25px;
@@ -193,6 +190,15 @@ li a:hover {
 	color: white;
 }
 
+#learnMoreLink {
+  color: white;
+  text-decoration: none;
+}
+
+#learnMoreLink a:hover {
+  color: gray;
+}
+
 .rightArrow{
 	color: gray;
 	font-size: 20px;
@@ -212,9 +218,7 @@ li a:hover {
 	color: black;
 }
 
-
 .ourRoomsText{
-	font-family: Poppins, sans-serif;
 	font-weight: none;
 	margin:20 10 10 0;
 	width: 90%;
@@ -226,6 +230,15 @@ li a:hover {
 	font-weight: bold;
 	font-style: italic;
 	color: black;
+}
+
+#ourRoomsLink {
+  color: black;
+  text-decoration: none;
+}
+
+#ourRoomsLink a:hover {
+  color: gray;
 }
 
 .bottomRow{
@@ -251,9 +264,10 @@ li a:hover {
 }
 
 .guestLine{
-	width:200px;
+	width: 200px;
 	float: right;
 	color: white;
+	padding-top: 0;
 }
 
 .guestBox{

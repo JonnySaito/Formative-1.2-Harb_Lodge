@@ -1,10 +1,11 @@
 $columns: 12;
 $columnWidth: 100% / $columns;
 
+$lrgWidth: 1168px;
 $medWidth: 768px;
 $smlWidth: 412px;
 
-.row{
+.row{ 
     
     // margin-bottom: 15px;
     &::after{
@@ -38,6 +39,23 @@ $smlWidth: 412px;
 
 
 
+// media query for large (desktop): 1168px 
+
+@media (max-width: $lrgWidth) {
+    @for $i from 1 through $columns{
+        .colL#{$i}{
+            width:$columnWidth * $i;
+        }
+
+        .offsetL#{$i}{
+            margin-left:$columnWidth * $i;
+        }
+        
+    }
+}
+
+
+// media query for medium (tablet): 768px 
 
 @media (max-width: $medWidth) {
     @for $i from 1 through $columns{
@@ -53,6 +71,7 @@ $smlWidth: 412px;
 }
 
 
+// media query for small (mobile): 412px 
 
 @media (max-width: $smlWidth) {
     @for $i from 1 through $columns{
