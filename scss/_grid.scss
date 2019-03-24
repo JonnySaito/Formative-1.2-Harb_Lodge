@@ -39,7 +39,7 @@ $smlWidth: 412px;
 
 
 
-// media query for large (desktop): 1168px 
+// media query for large (laptop): 1168px 
 
 @media (max-width: $lrgWidth) {
     @for $i from 1 through $columns{
@@ -51,6 +51,17 @@ $smlWidth: 412px;
             margin-left:$columnWidth * $i;
         }
         
+        h1{
+            font-size: 3em;
+            letter-spacing: 1.5px;
+            height: 50px;
+        }
+
+        p {
+            font-size: 0.8em;
+        }
+
+
     }
 }
 
@@ -67,6 +78,18 @@ $smlWidth: 412px;
             margin-left:$columnWidth * $i;
         }
         
+    // (1) make main image into a background image
+
+
+    // (2) move header and nav bar down so they float on top of main background image
+        .harbHeader{
+
+        }
+    // (3) delete black div (with < > arrows) for image gallery
+
+    // (4) move welcome text to left from right
+
+    // (5) display one gallery image (instead of 3)
     }
 }
 
@@ -82,6 +105,16 @@ $smlWidth: 412px;
         .offsetS#{$i}{
             margin-left:$columnWidth * $i;
         }
+
+    // (1) turn nav bar into dropdown nav (hamburger) and move to left side
+
+    // (2) have 3 gallery images take up full row
+
+    // (3) make welcome text take up full row
+
+    // (4) put [our rooms text] + [room image] + [guest comment] on one row
+
+
     }
 }
 
